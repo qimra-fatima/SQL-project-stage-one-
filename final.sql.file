@@ -1,3 +1,8 @@
+CREATE TABLE movies
+(Title TEXT,
+Genre TEXT,
+Year INTEGER,
+Rating REAL);
 INSERT INTO movies (Title, genre, year, rating) VALUES ('it', 'horror',2017, 7.3);
 INSERT INTO movies (Title, genre, year, rating) VALUES ('american Psycho','horror',2000, 7.6);
 INSERT INTO movies (Title, genre, year, rating) VALUES ('pride and prejudice', 'romance', 2005, 7.8);
